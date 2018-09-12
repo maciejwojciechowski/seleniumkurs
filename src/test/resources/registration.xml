@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:InputTestData xmlns:ns2="urn:org:easetech:easytest:1.0">
+    <TestMethod name="registerUserTest">
+        <Description>Different User Registration Tests
+        </Description>
+
+        <TestRecord id="1">
+            <Description>User 1</Description>
+            <InputData>
+                <Entry key="userName" value="Jan.Nowak" />
+                <Entry key="password" value="password" />
+                <Entry key="firstName" value="Jan" />
+                <Entry key="lastName" value="Nowak" />
+                <Entry key="phoneNumber" value="786675565" />
+                <Entry key="email" value="nowakjan@gmail.com" />
+                <Entry key="address1" value="ul. Grunwaldzka 452" />
+                <Entry key="address2" value="Mieszkanie nr 5" />
+                <Entry key="city" value="Gdansk" />
+                <Entry key="state" value="Pomorskie" />
+                <Entry key="zipCode" value="80-462" />
+                <Entry key="country" value="POLAND" />
+            </InputData>
+        </TestRecord>
+
+        <TestRecord id="2">
+            <Description>User 2</Description>
+            <InputData>
+                <Entry key="userName" value="Robert.Lubicz" />
+                <Entry key="password" value="password" />
+                <Entry key="firstName" value="Robert" />
+                <Entry key="lastName" value="Lubicz" />
+                <Entry key="phoneNumber" value="234657678" />
+                <Entry key="email" value="lubiczRobert@gmail.com" />
+                <Entry key="address1" value="ul. Swietojanska 232" />
+                <Entry key="address2" value="Mieszkanie nr 10" />
+                <Entry key="city" value="Gdynia" />
+                <Entry key="state" value="Pomorskie" />
+                <Entry key="zipCode" value="80-439" />
+                <Entry key="country" value="POLAND" />
+            </InputData>
+        </TestRecord>
+
+        <TestRecord id="3">
+            <Description>User 3</Description>
+            <InputData>
+                <Entry key="userName" value="Tomasz.Kowalski" />
+                <Entry key="password" value="password2" />
+                <Entry key="firstName" value="Tomasz" />
+                <Entry key="lastName" value="Kowalski" />
+                <Entry key="phoneNumber" value="123546765" />
+                <Entry key="email" value="kowalskitomasz@gmail.com" />
+                <Entry key="address1" value="ul. Sobieskiego 132" />
+                <Entry key="address2" value="Mieszkanie nr 2" />
+                <Entry key="city" value="Gdynia" />
+                <Entry key="state" value="Pomorskie" />
+                <Entry key="zipCode" value="80-432" />
+                <Entry key="country" value="POLAND" />
+            </InputData>
+        </TestRecord>
+    </TestMethod>
+</ns2:InputTestData>
